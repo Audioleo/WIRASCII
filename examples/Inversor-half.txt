@@ -2,13 +2,13 @@ WIRASCII>
 
 Esquema general de potencia – Calentamiento por inducción (sin control):
 
-         L      N
-         │      │
+        L       N
+        │       │
        [F1]    [F2]
-         │      │
-       [NTC]   [NTC]
-         │      │
-         │      │
+        │       │
+      [NTC]   [NTC]
+        │       │
+        │       │
        ‚────────‚
        │  Filtro  │
        │   EMI    │
@@ -16,7 +16,7 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
         │   │           
         │   │   ‚––––––––‚
         │   ‘–––|~ BR1  +|───────+Vbus
-        +──────|~ ->-  -|───────┐
+        +──────|~      -|───────┐
         │       ‘––––––––‘        │
         │                         │
         │                       [MOV]
@@ -25,17 +25,17 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
 
      Rail-split DC:
 
-           +Vbus
-             │
-           [-//-]   ← C1 = 0.47 µF / 630 V MKP
-             │
-             │
-             +––> B
-             │
-		     │
-           [-//-]   ← C2 = 0.47 µF / 630 V MKP
-             │
-            GND
+         +Vbus
+           │
+        [-//-]   ← C1 = 0.47 µF / 630 V MKP
+           │
+           │
+           +––> B
+           │
+	   │
+         [-//-]   ← C2 = 0.47 µF / 630 V MKP
+           │
+          GND
 
      Inversor Half-Bridge:
 
@@ -46,7 +46,7 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
             │
             +––> A
             │
-			│
+	    │
          --[Q2]
             │
            GND
@@ -54,17 +54,18 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
  Conexión A a tanque resonante:
 
   
-       A >––‚
-            │
-            │
-            │
-         [=)))=]  bobina + pieza de trabajo
-            │
-            │
-            │
-       B >––‘
+        A >––‚
+             │
+             │
+             │
+          [=)))=]  bobina + pieza de trabajo
+             │
+             │
+             │
+        B >––‘
 
 Convenciones:
+
 - Nodo A: punto medio del half-bridge
 - Nodo B: punto medio del rail-split
 - C1, C2: capacitores MKP
