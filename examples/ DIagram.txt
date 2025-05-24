@@ -1,0 +1,35 @@
+WIRASCII>
+
+Diagrama eléctrico:
+
+	 			   N1:N1
+	 ,--------------‚  ‚--------------‚
+	 |  	ip–›	|  |	  is–›    |
+	 |              )  (	          |
+V(t)[~]           P1(  )P2	      [Req]
+	 |              )  (	  	    |
+	 |		  	|  |			  |
+	 ‘--------------‘  ‘--------------‘
+
+Convenciones:
+
+V(t) ≈ ±Vbus/2
+N1:N2 = N1:1
+Cruces de lineas: -C-
+Puntos de unión: -+-
+Terminales: In »-, -» Out
+							         
+Terminales de alimentación:
+				 _
+		|-  +V   |
+
+Conexiones comunes (o tierras):
+
+			|   |
+      	 /// ===
+
+Observaciones: este sistema de diagramas es factible sólo para circuitos sencillos
+
+
+
+

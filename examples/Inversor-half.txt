@@ -1,0 +1,72 @@
+WIRASCII>
+
+Esquema general de potencia – Calentamiento por inducción (sin control):
+
+         L      N
+         │      │
+       [F1]    [F2]
+         │      │
+       [NTC]   [NTC]
+         │      │
+         │      │
+       ‚────────‚
+       │  Filtro  │
+       │   EMI    │
+       ‘────────‘ 
+        │   │           
+        │   │   ‚––––––––‚
+        │   ‘–––|~ BR1  +|───────+Vbus
+        +──────|~ ->-  -|───────┐
+        │       ‘––––––––‘        │
+        │                         │
+        │                       [MOV]
+        │                         │
+       ===                       ///
+
+     Rail-split DC:
+
+           +Vbus
+             │
+           [-//-]   ← C1 = 0.47 µF / 630 V MKP
+             │
+             │
+             +––> B
+             │
+		     │
+           [-//-]   ← C2 = 0.47 µF / 630 V MKP
+             │
+            GND
+
+     Inversor Half-Bridge:
+
+         +Vbus
+            │
+         --[Q1]  ← IGBT (ej: IRGP50B60PD1)
+            │
+            │
+            +––> A
+            │
+			│
+         --[Q2]
+            │
+           GND
+
+ Conexión A a tanque resonante:
+
+  
+       A >––‚
+            │
+            │
+            │
+         [=)))=]  bobina + pieza de trabajo
+            │
+            │
+            │
+       B >––‘
+
+Convenciones:
+- Nodo A: punto medio del half-bridge
+- Nodo B: punto medio del rail-split
+- C1, C2: capacitores MKP
+- Fusibles lentos (~15–20 A), NTC para arranque suave
+- MOV entre +Vbus y GND para protección
