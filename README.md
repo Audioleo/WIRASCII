@@ -2,16 +2,6 @@
 
 WIRASCII es un lenguaje de diagramas eléctricos en texto plano (ASCII), diseñado para representar circuitos sencillos de forma ligera, ideal para compartir circuitos sencillos o documentación técnica en chats, foros, y entornos colaborativos con limitaciones gráficas.
 
-## Objetivos
-
-- Crear símbolos estandarizados legibles en texto plano.
-
-- Facilitar la colaboración entre personas, o entre humanos e inteligencias artificiales.
-
-- Ser fácilmente extensible y accesible.
-
-- Utilizarse en plataformas con baja con baja capacidad o sin soporte gráfico.
-
 ## Características
 
 - Representación simple en ASCII de componentes eléctricos y electrónicos.
