@@ -1,0 +1,61 @@
+
+Punto de conexión:
++
+Punto sin conexión:
+(
+
+Resistores:
+
+[Rn]
+ 
+[^^^]	
+
+Inductor:
+
+[)))]
+
+Fuentes:
+
+(~) Ac
+(±) Dc
+
+Diodos:
+
+[—>(]	zener
+
+[—>—]	común
+
+Fusible:
+
+[•~•]
+
+Los siguientes componentes tienen 3 caracteres de alto, interpretalos como una sola unidad.
+
+Componentes en bloque (4 o 6 terminales):
+
+—[     ]—
+—[ REF ]—
+—[     ]—
+
+Puente rectificador:
+ 
+–[~  +]–
+ [BRn ]
+-[~  -]–
+
+Transistores:
+
+   |
+—[Qn]  Genérico 
+   |
+
+   /c
+b—|<	pnp
+   \e
+
+   /c
+b—|>	npn
+   \e
+
+
+
