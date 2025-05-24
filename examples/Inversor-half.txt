@@ -23,7 +23,7 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
         │                         │
        ===                       ///
 
-     Rail-split DC:
+Rail-split DC:
 
          +Vbus
            │
@@ -37,7 +37,7 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
            │
           GND
 
-     Inversor Half-Bridge:
+Inversor Half-Bridge:
 
          +Vbus
             │
@@ -51,9 +51,8 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
             │
            GND
 
- Conexión A a tanque resonante:
+Conexión A a tanque resonante:
 
-  
         A >––‚
              │
              │
