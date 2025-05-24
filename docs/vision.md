@@ -12,7 +12,7 @@
 
 - Ser fácilmente extensible y accesible.
 
-- Utilizarse en plataformas con baja con baja capacidad o sin soporte gráfico.
+- Utilizarse en plataformas con baja eficiencia o sin soporte para manejar o generar gráficos.
 
 ## Estado actual
 
