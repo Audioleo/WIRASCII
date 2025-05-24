@@ -13,7 +13,7 @@
 - Convenciones definidas para conexiones, referencias y estilo visual
 - Scripts en Python para generar símbolos editables
 - Repositorio abierto con estructura organizada y licencia MIT
-- En desarrollo: carpeta `/symbols`, scripts generadores y documentación
+- En desarrollo: carpetas `/symbols`, `/src`, y `docs`
 
 ## ¿Por qué WIRASCII?
 
