@@ -45,7 +45,7 @@ Fuente AC con puente rectificador:
          ┌─────┐
  AC ────┤~    +├──── +V
          │BR1   │
- AC ────┤~    -├──── GND
+ AC ────┤~    -├──── -V
          └─────┘
 ```
 
