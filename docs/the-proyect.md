@@ -2,7 +2,7 @@
 
 ## ¿Qué es WIRASCII?
 
-**WIRASCII** es un sistema de representación de circuitos eléctricos en texto plano (ASCII), diseñado para facilitar la comunicación técnica en entornos donde los recursos gráficos son limitados o innecesarios. Nació como una alternativa ligera para representar esquemas eléctricos en chats, terminales o editores de texto.
+**WIRASCII** es un sistema de representación de circuitos eléctricos en texto plano (ASCII), diseñado para facilitar la comunicación técnica dentro de entornos donde los recursos gráficos son limitados o innecesarios. Nació como una alternativa ligera para representar esquemas eléctricos en chats, terminales o editores de texto.
 
 ## Objetivos
 
