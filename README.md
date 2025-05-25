@@ -15,15 +15,16 @@ WIRASCII es un lenguaje de diagramas eléctricos en texto plano (ASCII), diseña
 
 ## Símbolos básicos
 
-- Nodo de conexión: `+`
+- `+` : Nodo de conexión
 
-- Sin conexión: `(`
+- `(` : Sin conexión
 
-- Resistor: `[Rn]` o `[^^^]`
+- `[Rn]` o `[^^^]` : Resistor
 
-- Inductor: `[)))]`
+- `[)))]` : Inductor
 
-- Fuente AC: `(~)` / Fuente DC: `(±)`
+- `(~)` : Fuente AC
+- `(±)` : Fuente DC
 
 - Diodo común: `[—>—]` / Zener: `[—>(]`
 
