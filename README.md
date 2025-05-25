@@ -24,15 +24,18 @@ WIRASCII es un lenguaje de diagramas eléctricos en texto plano (ASCII), diseña
 - `[)))]` : Inductor
 
 - `(~)` : Fuente AC
+
 - `(±)` : Fuente DC
 
-- Diodo común: `[—>—]` / Zener: `[—>(]`
+- `[—>—]` : Diodo común
 
-- Fusible: `[•~•]`
+- `[—>(]` : Zener
 
-- Transistores: genéricos `[Qn]`
+- `[•~•]` : Fusible
 
-- Bloques de componente (hasta 6 pines, símbolo rectangular, etiquetas externas)
+- `[Qn]` : Transistores genérico
+
+- `[REF]` : Bloques de componente genérico (hasta 6 pines, símbolo rectangular, etiquetas externas)
 
 ## Ejemplos
 
