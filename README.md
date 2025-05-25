@@ -43,18 +43,18 @@ WIRASCII es un lenguaje de diagramas eléctricos en texto plano (ASCII), diseña
 Fuente AC con puente rectificador:
 ```txt
          ┌─────┐
- AC ────│~    +│──── +V
+ AC ────┤~    +├──── +V
          │BR1   │
- AC ────│~    -│──── GND
+ AC ────┤~    -├──── GND
          └─────┘
 ```
 
 Componente de bloque genérico:
 ```wrirascii
  ┌───────┐
- │6      1│
- │5 REF  2│
- │4      3│
+ ┤6      1├
+ ┤5 REF  2├
+ ┤4      3├
  └───────┘
 ```
 Las etiquetas de los pines pueden mostrarse externamente. Solo se permite conexión en las líneas de pines (1 a 6).
