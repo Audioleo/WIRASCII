@@ -1,0 +1,29 @@
+Contornos:
+
+ ┌┴┐
+ ┤ ├
+ └┬┘
+
+Líneas:
+
+│ ─ ┼  ¯ _ | – —
+
+Corchetes:
+
+() [] {} ⟨⟩ \/
+
+Flechas:
+
+<> «» ‹› ←→ ↑↓
+
+Puntos:
+
+· • : * 
+
+Signos:
+
+- + ± ~ ^
+
+Sombras:
+
+▓ ▒ ░ █ ▄ ▀ ■ ≡
