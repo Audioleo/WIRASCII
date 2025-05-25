@@ -33,9 +33,9 @@ WIRASCII es un lenguaje de diagramas eléctricos en texto plano (ASCII), diseña
 
 - `[•~•]` : Fusible
 
-- `[Qn]` : Transistores genérico
+- `[Qn]` : Transistore genérico
 
-- `[REF]` : Bloques de componente genérico (hasta 6 pines, símbolo rectangular, etiquetas externas)
+- `[REF]` : Bloque de componente genérico (hasta 6 pines, símbolo rectangular, etiquetas externas)
 
 ## Ejemplos
 
