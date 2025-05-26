@@ -1,4 +1,4 @@
-un# Biblioteca de símbolos WIRASCII
+unun# Biblioteca de símbolos WIRASCII
 
 Esta carpeta contiene los **símbolos gráficos** utilizados por el sistema WIRASCII. Cada símbolo representa un componente eléctrico o electrónico, diseñado para usarse en entornos de texto plano.
 
@@ -14,8 +14,7 @@ symbols/
 ├── misc/ # Otros símbolos
 ```
 
-
-Cada archivo `.txt` contiene una o varias variantes del símbolo, generalmente en distintas orientaciones (horizontal o vertical).
+Cada archivo `.txt` contiene una o varias variantes de un mismo símbolo, generalmente en distintas orientaciones (horizontal o vertical).
 
 ## Convenciones
 
@@ -32,3 +31,6 @@ Cada archivo `.txt` contiene una o varias variantes del símbolo, generalmente e
 [▼]
  │
 ```
+## Nota sobre Unicode
+
+Aunque el proyecto se llama WIRASCII, se emplean también caracteres Unicode ligeros para lograr mayor claridad visual. Esto incluye símbolos como ▼, ▶, ─, ┬, etc. Todos los símbolos están diseñados para funcionar correctamente en la mayoría de editores de texto modernos y terminales compatibles.
