@@ -6,8 +6,8 @@ Este proyecto es abierto y colaborativo. Si te interesa el cruce entre electrón
 
 ## Tabla de contenido
 
-- [Visión del proyecto](doc/vision.md)
-- [Objetivos actuales](doc/objetivo.md)
+- [Visión del proyecto](docs/vision.md)
+- [Objetivos actuales](docs/objetivo.md)
 - [Símbolos disponibles](symbols/)
 - [Herramientas y scripts](tools/)
 - [Ejemplos (próximamente)](examples/)
