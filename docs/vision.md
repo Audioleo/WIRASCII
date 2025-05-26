@@ -1,18 +1,8 @@
-# Acerca del proyecto WIRASCII
+# Visión del proyecto WIRASCII
 
 ## ¿Qué es WIRASCII?
 
-**WIRASCII** es un sistema de representación de circuitos eléctricos en texto plano (ASCII), diseñado para facilitar la comunicación técnica dentro de entornos donde los recursos gráficos son limitados o no estan soportados. Surgió como una alternativa ligera para representar esquemas eléctricos en chats, terminales o editores de texto.
-
-## Objetivos
-
-- Crear símbolos estandarizados legibles en texto plano.
-
-- Facilitar la colaboración entre personas, o entre humanos e inteligencias artificiales.
-
-- Ser fácilmente extensible y accesible.
-
-- Utilizarse en plataformas con baja eficiencia, o sin soporte, para manejar o generar gráficos.
+**WIRASCII** es un sistema de representación de circuitos eléctricos en texto plano (ASCII), diseñado para facilitar la comunicación técnica en entornos donde los recursos gráficos son limitados o innecesarios. Nació como una alternativa ligera para representar esquemas eléctricos en chats, terminales o editores de texto.
 
 ## Estado actual
 
@@ -23,7 +13,7 @@
 - Convenciones definidas para conexiones, referencias y estilo visual
 - Scripts en Python para generar símbolos editables
 - Repositorio abierto con estructura organizada y licencia MIT
-- En desarrollo: carpetas `/symbols`, `/src`, y `docs`
+- En desarrollo: carpeta `/symbols`, scripts generadores y documentación
 
 ## ¿Por qué WIRASCII?
 
