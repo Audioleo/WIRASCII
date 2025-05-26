@@ -1,11 +1,6 @@
 WIRASCII SYMBOLS - trans-mos-igbt.txt
 Símbolos básicos de transistores BJT, MOSFET e IGBT
 
-# Transistor genérico
-   |
- [Qn]
-   |
-
 # Transistores BJT
 
 ## NPN (estilo 1)
