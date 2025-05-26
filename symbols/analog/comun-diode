@@ -1,0 +1,18 @@
+# Símbolos oficiales para Diodo común (WIRASCII)
+
+# Regla para símbolos verticales:  
+# Los terminales están alineados en la misma columna central.
+
+# Verticales:
+ │
+[▼]
+ │
+
+ │
+[▲]
+ │
+
+# Horizontales:
+─[▶]─
+
+─[◀]─
