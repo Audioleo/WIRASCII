@@ -1,0 +1,20 @@
+# Conmutador genérico [Qn]
+# Representa: transistor, MOSFET o IGBT genérico
+# Controlado pero sin terminal de control explícito
+# Uso: Half-bridge, PWM, inversores, drivers, etc.
+
+# Variante vertical (alineación por la anteúltima columna de la referencia)
+Vertical (alineación derecha):
+  │
+[Qn]
+  │
+
+# Variante vertical espejo (alineación en la columna 2 del símbolo)
+Vertical (espejo, alineación izquierda):
+ │
+[Qn]
+ │
+
+# Variante horizontal
+Horizontal:
+─[Qn]─
