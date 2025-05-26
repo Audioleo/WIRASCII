@@ -1,4 +1,4 @@
-# Biblioteca de símbolos WIRASCII
+un# Biblioteca de símbolos WIRASCII
 
 Esta carpeta contiene los **símbolos gráficos** utilizados por el sistema WIRASCII. Cada símbolo representa un componente eléctrico o electrónico, diseñado para usarse en entornos de texto plano.
 
@@ -12,4 +12,23 @@ symbols/
 ├── power/ # Componentes de potencia (MOSFET, IGBT, fuentes, transformadores)
 ├── logic/ # Puertas lógicas y componentes digitales (futuro)
 ├── misc/ # Otros símbolos
+```
+
+
+Cada archivo `.txt` contiene una o varias variantes del símbolo, generalmente en distintas orientaciones (horizontal o vertical).
+
+## Convenciones
+
+- **Formato:** Cada símbolo se dibuja con caracteres ASCII o Unicode ligeros.
+- **Terminales:** Se indican usando líneas verticales (`│`) u horizontales (`─`), según el sentido.
+- **Centro de conexión:** El símbolo se alinea al centro de sus terminales verticales, si corresponde.
+- **Wire units (unidades de cableado):** Se utilizan caracteres como `─`, `│`, `┬`, `┴`, `┼`, `├`, `┤` para representar derivaciones, cruces y uniones de líneas.
+- **Nombres:** Los nombres de archivos son descriptivos y utilizan guiones (`-`) para separar palabras.
+
+## Ejemplo (símbolo de diodo común)
+
+```text
+ │
+[▼]
+ │
 ```
