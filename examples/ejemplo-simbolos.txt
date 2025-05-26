@@ -1,61 +1,20 @@
+Fragmento: inversor half-bridge con rail-split (uso de [Qn])
 
-Punto de conexión:
-+
-Punto sin conexión:
-(
+        +Vbus ───┬──────────────┐
+                  │              │
+                  │              │
+                [Q1]           [C1]
+                  │              │
+                  │              │
+                  ├─A───())))───B─┤
+                  │     L        │
+                  │              │
+                [Q2]           [C2]
+                  │              │
+                  │              │
+         GND ────┴──────────────┘
 
-Resistores:
-
-[Rn]
- 
-[^^^]	
-
-Inductor:
-
-[)))]
-
-Fuentes:
-
-(~) Ac
-(±) Dc
-
-Diodos:
-
-[—>(]	zener
-
-[—>—]	común
-
-Fusible:
-
-[•~•]
-
-Los siguientes componentes tienen 3 caracteres de alto, interpretalos como una sola unidad.
-
-Componentes en bloque (4 o 6 terminales):
-
-—[     ]—
-—[ REF ]—
-—[     ]—
-
-Puente rectificador:
- 
-–[~  +]–
- [BRn ]
--[~  -]–
-
-Transistores:
-
-   |
-—[Qn]  Genérico 
-   |
-
-   /c
-b—|<	pnp
-   \e
-
-   /c
-b—|>	npn
-   \e
-
-
-
+Notas:
+- [Q1] y [Q2] son conmutadores genéricos (MOSFETs, IGBTs, etc.)
+- [C1] y [C2] forman el divisor capacitivo (rail-split)
+- La carga resonante está entre nodos A y B (bobina + pieza)
