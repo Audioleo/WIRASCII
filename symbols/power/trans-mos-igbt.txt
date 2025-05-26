@@ -11,8 +11,8 @@ b—|<
   \e
 
  ┌─c
-B┤
- └>e
+b┤
+ └<e
 
 Transistores NPN:
 
