@@ -22,16 +22,17 @@ Diodos:
 
 Fusibles:
 [•~•]  Fusible genérico
+
 •~•
   
 Componente en bloque (hasta 6 terminales):
 ┌───────┐
-│6     1│
-│5 REF 2│
-│4     3│
+┤6     1├
+┤5 REF 2├
+┤4     3├
 └───────┘
 
-Reglas de conexión,
+Reglas de conexión:
   Las conexiones externas deben hacerse en las líneas de terminales 1 a 6.
   Las terminales no usadas pueden eliminarse (reemplazando por espacios).
   La referencia (REF) es variable.
