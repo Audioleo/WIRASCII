@@ -1,4 +1,4 @@
-# Avance del proyecto WIRASCII v1.0
+# Especificaciones WIRASCII v1.0
 
 ## Origen e idea
 
