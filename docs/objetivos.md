@@ -16,6 +16,10 @@ El objetivo principal de **WIRASCII** es desarrollar un sistema textual estandar
 - Se ha creado un generador de símbolos genéricos con soporte para 6 terminales.
 - Se discute la posibilidad de rotar terminales, corregir errores y expandir las funciones del generador.
 
+## Público objetivo
+
+Personas aprendiendo electrónica, usuarios de terminal, colaboraciones IA–humano, etc.
+
 ## Enfoque
 
 WIRASCII busca ser simple, útil y fácilmente integrable en flujos de trabajo humanos o asistidos por inteligencia artificial. A través del texto plano, el proyecto apunta a ser un medio ágil, accesible y universal para representar sistemas eléctricos.
