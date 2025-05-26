@@ -2,63 +2,36 @@ WIRASCII - Biblioteca de símbolos (v1.0)
 ----------------------------------------
 
 Puntos de conexión:
-  +     Punto de conexión (nodo)
-  (     Punto sin conexión
++     Punto de conexión (nodo)
+(     Punto sin conexión
 
 Resistores:
-  [Rn]   Resistor con etiqueta
-  [^^^]  Resistor genérico
+[Rn]   Resistor con etiqueta
+[^^^]  Resistor genérico
 
 Inductores:
-  [)))]  Inductor genérico
+[)))]  Inductor genérico
 
 Fuentes:
-  (~)    Fuente de AC
-  (±)    Fuente de DC
+(~)    Fuente de AC
+(±)    Fuente de DC
 
 Diodos:
-  [—>—]  Diodo común
-  [—>(]  Diodo zener
+[—>—]  Diodo común
+[—>(]  Diodo zener
 
 Fusibles:
-  [•~•]  Fusible genérico
-
-Transistores:
-
-  Genérico:
-     |
-   [Qn]
-     |
-
-  PNP:
-     /c
-  b—|<
-     \e
-
-  NPN:
-     /c
-  b—|>
-     \e
-
-Puente rectificador:
-    ┌─────┐
-    │~  +│
-    │BRn │
-    │~  -│
-    └─────┘
-
-  Reglas de conexión:
-  Las entradas AC se conectan en las líneas con los símbolos `~`, las salidas DC en las líneas con `+` y `-`.
-
+[•~•]  Fusible genérico
+•~•
+  
 Componente en bloque (hasta 6 terminales):
-    ┌───────┐
-    │6     1│
-    │5 REF 2│
-    │4     3│
-    └───────┘
+┌───────┐
+│6     1│
+│5 REF 2│
+│4     3│
+└───────┘
 
-  Reglas de conexión:
+Reglas de conexión,
   Las conexiones externas deben hacerse en las líneas de terminales 1 a 6.
   Las terminales no usadas pueden eliminarse (reemplazando por espacios).
   La referencia (REF) es variable.
-
