@@ -18,7 +18,7 @@ Cada archivo `.txt` contiene una o varias variantes de un mismo símbolo, genera
 
 ## Convenciones
 
-- **Formato:** Cada símbolo se dibuja con caracteres Unicode (en reemplazo de ASCII para terminales te texto modernas).
+- **Formato:** Cada símbolo se dibuja con caracteres Unicode ligero(para superar las limitaciones ASCII).
 - **Terminales:** Se indican usando líneas verticales (`│`) u horizontales (`─`), según el sentido.
 - **Centro de conexión:** El símbolo se alinea al centro de sus terminales verticales, si corresponde.
 - **Wire units (unidades de cableado):** Se utilizan caracteres como `─`, `│`, `┬`, `┴`, `┼`, `├`, `┤` para representar derivaciones, cruces y uniones de líneas.
