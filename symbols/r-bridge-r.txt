@@ -1,0 +1,8 @@
+Puente rectificador:
+┌──────┐
+┤~ BR  +├
+┤~ >|  -├
+└──────┘
+
+Reglas de conexión:
+ Las entradas AC se conectan en las líneas con los símbolos `~`, las salidas DC en las líneas con `+` y `-`.
