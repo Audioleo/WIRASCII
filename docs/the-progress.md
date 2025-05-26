@@ -25,7 +25,7 @@
 
 - Documentación liviana y multiplataforma.
 
-## Punto de partida
+## Estado inicial del proyecto
 
 A continuación, se expone el avance que tuvo el proyecto en su punto de partida inicial.
 
