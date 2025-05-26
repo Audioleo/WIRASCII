@@ -1,57 +1,40 @@
 # WIRASCII
-**Versión:** 1.0 (borrador)
 
-WIRASCII es un lenguaje de diagramas eléctricos en texto plano (ASCII), diseñado para representar circuitos sencillos de forma ligera, ideal para compartir circuitos sencillos o documentación técnica en chats, foros, y entornos colaborativos con limitaciones gráficas.
+**WIRASCII** es un sistema de representación de circuitos eléctricos y electrónicos mediante símbolos ASCII. Fue diseñado para facilitar la colaboración en entornos de texto plano —como chats, terminales o correos— donde los diagramas visuales tradicionales no son prácticos.
 
-## Características
+Este proyecto es abierto y colaborativo. Si te interesa el cruce entre electrónica, herramientas de desarrollo ligeras, y creatividad basada en texto, ¡eres bienvenido a participar!
 
-- Representación simple en ASCII de componentes eléctricos y electrónicos.
+## Tabla de contenido
 
-- Convención clara para nodos, uniones, cruces y polaridades.
+- [Visión del proyecto](doc/vision.md)
+- [Objetivos actuales](doc/objetivos.md)
+- [Símbolos disponibles](symbols/)
+- [Herramientas y scripts](tools/)
+- [Ejemplos (próximamente)](examples/)
 
-- Símbolos compatibles con editores de texto plano y chats colaborativos.
+## ¿Por qué WIRASCII?
 
-- Sistema modular: los circuitos pueden diseñarse como subsistemas de sistemas más grandes.
+- Permite compartir diagramas en texto plano, sin necesidad de imágenes.
+- Ideal para entornos con recursos limitados o comunicación rápida.
+- Útil en chats con IA, foros técnicos, notas personales o código fuente documentado.
+- Permite colaboración y prototipado rápido.
 
-## Ejemplos de componentes
+## Estructura del repositorio
 
-Fuente DC con puente rectificador:
-```txt
-         ┌─────┐
- AC ────┤~    +├──── +V
-         │BR1   │
- AC ────┤~    -├──── -V
-         └─────┘
 ```
-
-Componente de bloque genérico:
-```wrirascii
- ┌───────┐
- ┤6      1├
- ┤5 REF  2├
- ┤4      3├
- └───────┘
+WIRASCII/
+│
+├── doc/              # Documentación del proyecto
+├── symbols/          # Biblioteca de símbolos ASCII
+├── tools/            # Scripts y utilidades (generadores, validadores, etc.)
+├── examples/         # Ejemplos prácticos (en desarrollo)
+└── README.md         # Este archivo
 ```
-Las etiquetas de los pines pueden mostrarse externamente. Solo se permite conexión en las líneas de pines (1 a 6).
-
-## Aplicaciones
-
-- Chats técnico-colaborativos
-
-- Educación y divulgación técnica
-
-- Diseño y simulación conceptual rápida
-
-- Documentación liviana y multiplataforma
-
-## Créditos y comunidad
- 
-**Colaboradores:**
-- Audioleo (creador humano)
-- ChatGPT por OpenAI (asistencia IA)
-
-WIRASCII es una iniciativa abierta creada en colaboración entre humanos y modelos de lenguaje IA. Fue concebida como una solución práctica para esquematizar circuitos durante el trabajo conjunto con IA, sin depender de imágenes en entornos sin soporte o de bajas capacidades gráficas.
 
 ## Licencia
 
-Este proyecto se publica bajo la licencia MIT.
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+---
+
+*Creado y mantenido por [Audioleo](https://github.com/Audioleo), con apoyo de colaboradores y asistentes IA.*
