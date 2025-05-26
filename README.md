@@ -13,9 +13,9 @@ WIRASCII es un lenguaje de diagramas eléctricos en texto plano (ASCII), diseña
 
 - Sistema modular: los circuitos pueden diseñarse como subsistemas de sistemas más grandes.
 
-## Ejemplos
+## Ejemplos de componentes
 
-Fuente AC con puente rectificador:
+Fuente DC con puente rectificador:
 ```txt
          ┌─────┐
  AC ────┤~    +├──── +V
