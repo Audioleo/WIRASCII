@@ -23,6 +23,31 @@ Este proyecto es abierto y colaborativo. Si te interesa el cruce entre electrón
 - Útil en chats con IA, foros técnicos, notas personales y documentación embebida.
 - Promueve un estilo modular, replicable y colaborativo.
 
+### Ejemplo: Inversor Half-Bridge con Rail-Split
+
+```txt
+        +Vbus ───┬──────────────┐
+                  │              │
+                  │              │
+                [Q1]           [C1]
+                  │              │
+                  │              │
+                  ├─A───())))───B─┤
+                  │     L        │
+                  │              │
+                [Q2]           [C2]
+                  │              │
+                  │              │
+         GND ────┴──────────────┘
+```
+### Notas:
+
+- [Q1] y [Q2]: Conmutadores genéricos (MOSFETs, IGBTs, etc.)
+
+- [C1] y [C2]: Capacitores del divisor de voltaje (rail-split)
+
+- La carga resonante (bobina + pieza de trabajo) está entre los nodos A y B
+
 ---
 
 ## Nota sobre compatibilidad
