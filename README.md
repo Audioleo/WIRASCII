@@ -13,31 +13,6 @@ WIRASCII es un lenguaje de diagramas eléctricos en texto plano (ASCII), diseña
 
 - Sistema modular: los circuitos pueden diseñarse como subsistemas de sistemas más grandes.
 
-
-## Símbolos básicos
-
-- `+` : Nodo de conexión
-
-- `(` : Sin conexión
-
-- `[Rn]` o `[^^^]` : Resistor
-
-- `[)))]` : Inductor
-
-- `(~)` : Fuente AC
-
-- `(±)` : Fuente DC
-
-- `[—>—]` : Diodo común
-
-- `[—>(]` : Zener
-
-- `[•~•]` : Fusible
-
-- `[Qn]` : Transistore genérico
-
-- `[REF]` : Representación simple de componente de bloque genérico (hasta 6 pines, símbolo rectangular, etiquetas externas)
-
 ## Ejemplos
 
 Fuente AC con puente rectificador:
