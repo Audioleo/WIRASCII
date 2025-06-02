@@ -23,3 +23,7 @@ Terminales de circuito:
 
 <─ , ─> : Salidas de señal o de potencia
 
+Tierra y masa:
+
+¯v¯   ///
+
