@@ -1,0 +1,47 @@
+# N
+----+-------+-----
+    |   1   |
+    |  [/]  |
+    |   2   |
+----+-------+-----
+
+# S
+----+-------+-----
+    |   2   |
+    |  [\]  |
+    |   1   |
+----+-------+-----
+
+# E
+----+-------+-----
+    |       |
+    | 2[/]1 |
+    |       |
+----+-------+-----
+
+# O
+----+-------+-----
+    |       |
+    | 1[\]2 |
+    |       |
+----+-------+-----
+
+---
+```yaml
+name: "Interruptor"
+symbol_type: "no polarizado"
+terminals:
+  - number: 1
+    role: "terminal de entrada o salida"
+    polarity: null
+  - number: 2
+    role: "terminal de entrada o salida"
+    polarity: null
+orientation: "N, S, E, O"
+marker: null
+usos:
+  - "conmutación de señales"
+  - "encendido y apagado de circuitos"
+notes:
+  - "El símbolo usa corchetes [ ] como componente de dos terminales"
+  - "El carácter / indica conexión abierta, mientras que \\ se usa para simular vista invertida"

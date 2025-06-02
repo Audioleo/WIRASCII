@@ -1,0 +1,48 @@
+N
++-------+
+|   1   |
+|  [ω]  |
+|   2   |
++-------+
+
+S
++-------+
+|   2   |
+|  [ω]  |
+|   1   |
++-------+
+
+E
++-------+
+|       |
+| 2[ω]1 |
+|       |
++-------+
+
+O
++-------+
+|       |
+| 1[ω]2 |
+|       |
++-------+
+
+```yaml
+name: "Inductor"
+symbol_type: "no polarizado"
+terminals:
+  - number: 1
+    role: "terminal 1"
+    polarity: null
+  - number: 2
+    role: "terminal 2"
+    polarity: null
+orientation: "N, S, E, O"
+marker: null
+usos:
+  - "Filtrado de señales"
+  - "Almacenamiento de energía magnética"
+  - "Circuitos resonantes"
+notes:
+  - "Símbolo usa corchetes [ ]"
+  - "No tiene polaridad"
+  - "El símbolo [ω] representa un inductor con estilo uniforme"

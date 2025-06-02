@@ -1,0 +1,46 @@
+# N
+----+-------+-----
+    |   1   |
+    |  [F]  |
+    |   2   |
+----+-------+-----
+
+# S
+----+-------+-----
+    |   2   |
+    |  [F]  |
+    |   1   |
+----+-------+-----
+
+# E
+----+-------+-----
+    |       |
+    | 2[F]1 |
+    |       |
+----+-------+-----
+
+# O
+----+-------+-----
+    |       |
+    | 1[F]2 |
+    |       |
+----+-------+-----
+
+```yaml
+name: "Fusible"
+symbol_type: "no polarizado"
+terminals:
+  - number: 1
+    role: "entrada o salida"
+    polarity: null
+  - number: 2
+    role: "salida o entrada"
+    polarity: null
+orientation: "N, S, E, O"
+marker: null
+usos:
+  - "protección contra sobrecorriente"
+  - "protección de circuitos sensibles"
+notes:
+  - "El símbolo utiliza [F] para representar el fusible de forma estilizada"
+  - "Es un componente de un solo uso que interrumpe el circuito al superar cierta corriente"
