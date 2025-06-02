@@ -31,7 +31,7 @@ estructura:
     - El símbolo gráfico va centrado entre las terminales
     - Se permite un marcador de polaridad (n) opcional
     - El marcador de polaridad debe alinearse en la misma fila o columna que el terminal 1, según la orientación del símbolo (vertical u horizontal)
-    - En símbolos de capacitores polarizados, el marcador n se reemplaza por el signo + dentro del gráfico
+    - En símbolos de capacitores polarizados, el marcador n se reemplaza por el signo + dentro del diagrama de circuito
     - La flecha en el símbolo no indica orientación, sino función (ej. diodo)
     - Las conexiones deben alinearse con alambrado Unicode (`─`, `│`, etc.)
   plantilla:
