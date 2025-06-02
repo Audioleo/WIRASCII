@@ -1,0 +1,49 @@
+BASE DE GRÁFICOS DE 1 x 1
+
+Líneas de alambrado:
+
+│─ ┴ ┬ ┤ ├ ┼ ┐ ┘ └ ┌
+
+Corchetes:
+
+() [] {} ⟨⟩ \/
+
+Flechas rotativas:
+
+← → ↑ ↓
+
+◀ ▶ ▲ ▼
+
+Flechas no rotativas:
+
+<> «» ‹› ⟨⟩
+
+Puntos:
+
+• · : …
+
+Letras de alfabetos:
+
+∆ π Π Ω μ ∞ ω
+
+Signos matemáticos:
+
+± + - × ÷ ^ <> ≤≥ ~ ≈ = ≠ √
+
+Variables algebraicas:
+
+x y z l m n c r
+
+Otros signos:
+
+& # @ † ‡ $ § © ® * ¯ _ – — |
+
+Rectangulos rellenos:
+
+▓ ▒ ░ █ ▄ ▀ ■ ≡
+
+---
+
+Notas:
+
+- Evaluar compatibilidad y uniformidad (visual) de cada gráfico.
