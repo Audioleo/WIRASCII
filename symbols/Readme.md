@@ -8,10 +8,9 @@ Los símbolos están clasificados por tipo o función, en subcarpetas como:
 
 ```
 symbols/
-├── analog/ # Componentes analógicos (diodos, resistencias, transistores)
-├── power/ # Componentes de potencia (MOSFET, IGBT, fuentes, transformadores)
-├── logic/ # Puertas lógicas y componentes digitales (futuro)
-├── misc/ # Otros símbolos
+├── basics/ # Componentes básicos (diodos, resistencias, capacitores, etc.)
+├── graphs/ # Base de carácteres gráficos para representación de símbolos y alambrado.
+├── specs/ # Especificaciones de los símbolos
 ```
 
 Cada archivo `.txt` contiene una o varias variantes de un mismo símbolo, generalmente en distintas orientaciones (horizontal o vertical).
