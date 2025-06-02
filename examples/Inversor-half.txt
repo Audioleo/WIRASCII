@@ -2,14 +2,14 @@ WIRASCII>
 
 Esquema general de potencia – Calentamiento por inducción (sin control):
 
-        L      N
-        │      │
-       [F1]   [F2]
-        │      │
-      [NTC]  [NTC]
-        │      │
-        │      │
-      ┌───────┐
+       L      N
+       │      │
+      [F]    [F]
+       │      │
+     [NTC]  [NTC]
+       │      │
+       │      │
+      ┌┴─────┴┐
       │ Filtro │
       │  EMI   │
       └─┬───┬─┘ 
