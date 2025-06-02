@@ -28,9 +28,7 @@ Inversor Half-Bridge + Rail-split:
 
 Conexión A a tanque resonante:
 
-   A >─────[ω]─────< B
-
- bobina + pieza de trabajo
+   A >─────[ω]───[®]─────< B     ← bobina + pieza de trabajo
 
 Notas:
 
