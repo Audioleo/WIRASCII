@@ -2,17 +2,17 @@ WIRASCII>
 
 Esquema general de potencia – Calentamiento por inducción (sin control):
 
-        L       N
-        │       │
-       [F1]    [F2]
-        │       │
-      [NTC]   [NTC]
-        │       │
-        │       │
-       ┌────────┐
-       │  Filtro  │
-       │   EMI    │
-       └────────┘ 
+        L      N
+        │      │
+       [F1]   [F2]
+        │      │
+      [NTC]  [NTC]
+        │      │
+        │      │
+      ┌───────┐
+      │ Filtro │
+      │  EMI   │
+      └─┬───┬─┘ 
         │   │           
         │   │   ┌──────┐
         │   └──┤~ BR1  +├───────+Vbus
@@ -43,15 +43,11 @@ Inversor Half-Bridge + Rail-split:
 
 Conexión A a tanque resonante:
 
-        A >──┐
-             │
-             │
-             │
-            [ω]  bobina + pieza de trabajo
-             │
-             │
-             │
-        B >──┘
+
+   A >─────[ω]─────< B
+
+ bobina + pieza de trabajo
+
 
 Convenciones:
 
