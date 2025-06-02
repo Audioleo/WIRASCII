@@ -35,6 +35,6 @@ Notas:
 - Nodo A: punto medio del half-bridge
 - Nodo B: punto medio del rail-split
 - C1, C2: capacitores MKP
-- Q1, Q2: IGBTs (ej: IRGP50B60PD1)
+- Q1, Q2: Interruptores controlados (ej. Transistores, MOSFETs, IGBTs, etc.)
 - Fusibles lentos (~15–20 A), NTC para arranque suave
 - MOV entre +Vbus y GND para protección
