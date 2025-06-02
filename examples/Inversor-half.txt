@@ -10,7 +10,7 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
                       └────┬───┘                    │
                            │                      [MOV]
                            │                        │
-                          ===                      ///
+                          ===                       ▬
 
 Inversor Half-Bridge + Rail-split:
       
@@ -24,7 +24,7 @@ Inversor Half-Bridge + Rail-split:
             │             │
           ─[/] Q2        [=]   ← C2 = 0.47 µF / 630 V MKP
             │             │
-           ///           ///
+            ▬            ▬
 
 Conjunto bobina + pieza de trabajo:
 
