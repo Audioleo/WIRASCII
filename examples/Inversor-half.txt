@@ -15,13 +15,13 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
       └─┬───┬─┘ 
         │   │           
         │   │   ┌──────┐
-        │   └──┤~ BR1  +├───────+Vbus
+        │   └──┤~ BR1  +├───────────> +Vbus
         ├──────┤~     -├───────┐
         │       └──────┘        │
-        │                         │
-        │                       [MOV]
-        │                         │
-       ===                       ///
+        │                        │
+        │                      [MOV]
+        │                        │
+       ===                      ///
 
 
          
