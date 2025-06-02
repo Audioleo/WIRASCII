@@ -9,12 +9,7 @@ Título: Reglas oficiales para representación de cableado en esquemas WIRASCII
    ┬  Derivación hacia arriba  
    ┴  Derivación hacia abajo  
    ├  Derivación izquierda  
-   ┤  Derivación derecha  
-
-2. Prohibido el uso de:
-   - `-` (reemplazar por `─`)  
-   - `|` (reemplazar por `│`)  
-   - `+` (usar solo `┼` si aplica)
+   ┤  Derivación derecha 
 
 3. Justificación:
    - Ambigüedad en cruces  
