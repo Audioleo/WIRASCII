@@ -4,9 +4,9 @@ WIRASCII>
 Esquema general de potencia – Calentamiento por inducción (sin control):
 
                       ┌────────┐    ┌───────┐
- L >────[F]───[NTC]───┤ Filtro ├────┤~ BR1 +├───────────> +Vbus
+ L •────[F]───[NTC]───┤ Filtro ├────┤~ BR1 +├───────────• +Vbus
                       │  EMI   ├────┤~     -├───────┐
- N >────[F]───[NTC]───┤        │    └───────┘       │
+ N •────[F]───[NTC]───┤        │    └───────┘       │
                       └────┬───┘                    │
                            │                      [MOV]
                            │                        │
@@ -14,12 +14,12 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
 
 Inversor Half-Bridge + Rail-split:
       
-+Vbus >─────┬─────────────┐
++Vbus •─────┬─────────────┐
             │             │
           ─[/] Q1        [=]   ← C1 = 0.47 µF / 630 V MKP
             │             │
             │             │
-            ├> A       B <┤ 
+            ├─• A     B •─┤ 
             │             │
             │             │
           ─[/] Q2        [=]   ← C2 = 0.47 µF / 630 V MKP
@@ -28,7 +28,7 @@ Inversor Half-Bridge + Rail-split:
 
 Conjunto bobina + pieza de trabajo:
 
-   A >─────[ω]───[®]─────< B   ← L y Req
+   A •─────[ω]───[®]─────• B   ← L y Req
 
 Notas:
 
