@@ -1,0 +1,52 @@
+# Capacitor polarizado ─ Orientaciones N, S, E, O
+
+# N
+   +-------+
+   |   1+  |
+   |  [=]  |
+   |   2   |
+   +-------+
+
+# S
+   +-------+
+   |   2   |
+   |  [=]  |
+   |   1+  |
+   +-------+
+
+# E
+   +-------+
+   |       |
+   | 2[=]1 |
+   |     + |
+   +-------+
+
+# O
+   +-------+
+   | +     |
+   | 1[=]2 |
+   |       |
+   +-------+
+
+---
+
+```yaml
+name: "Capacitor polarizado"
+symbol_type: "polarizado"
+terminals:
+  - number: 1
+    role: "positivo"
+    polarity: "+"
+  - number: 2
+    role: "negativo"
+    polarity: "-"
+orientation: "N, S, E, O"
+marker: "+"
+usos:
+  - "Almacenamiento de energía en fuentes DC"
+  - "Desacoplo de rizado en circuitos digitales"
+  - "Estabilización de tensión"
+notes:
+  - "El símbolo usa corchetes [=]"
+  - "El signo + reemplaza el marcador 'n' y se alinea con la terminal 1"
+  - "El símbolo sigue la plantilla oficial de componentes 2T polarizados"
