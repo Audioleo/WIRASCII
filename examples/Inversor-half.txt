@@ -2,7 +2,7 @@ WIRASCII>
 
 
 Esquema general de potencia – Calentamiento por inducción (sin control):
-```
+
                       ┌────────┐    ┌───────┐
  L >────[F]───[NTC]───┤ Filtro ├────┤~ BR1 +├───────────> +Vbus
                       │  EMI   ├────┤~     -├───────┐
@@ -11,7 +11,7 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
                            │                      [MOV]
                            │                        │
                           ===                      ///
-```
+
 Inversor Half-Bridge + Rail-split:
       
 +Vbus >─────┬─────────────┐
