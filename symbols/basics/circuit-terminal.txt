@@ -1,0 +1,47 @@
+# N
++------+
+|Tn 0  |
+|   •  |
+| ↓ 1  |
++------+
+
+# S
++------+
+| ↑ 1  |
+|   •  |
+|Tn 0  |
++------+
+
+# E
++------+
+|   Tn |
+| 1•0  |
+| ←    |
++------+
+
+# O
++------+
+|Tn    |
+|  0•1 |
+|    → |
++------+
+
+---
+name: "Terminal de circuito"
+symbol_type: "1T"
+terminals:
+  - number: 0
+    role: "referencia ficticia de orientación"
+    polarity: null
+  - number: 1
+    role: "punto de conexión activo"
+    polarity: null
+orientation: "N, S, E, O"
+marker: "opcional (flecha direccional)"
+usos:
+  - "Conexión de líneas de voltaje etiquetadas como +Vcc, -15V, Vbus, etc."
+  - "Puntos de análisis respecto a GND (no se conecta a tierra directamente)"
+notes:
+  - "La etiqueta 'Tn' indica el nombre del nodo o voltaje."
+  - "Este símbolo es un componente de un solo terminal (1T)."
+  - "La flecha es opcional, útil para indicar flujo de corriente."
