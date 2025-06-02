@@ -1,20 +1,52 @@
-# Conmutador genérico [Qn]
-# Representa: transistor, MOSFET o IGBT genérico
-# Controlado pero sin terminal de control explícito
-# Uso: Half-bridge, PWM, inversores, drivers, etc.
+Símbolo gráfico (ASCII) - Diodo genérico
 
-# Variante vertical (alineación por la anteúltima columna de la referencia)
-Vertical (alineación derecha):
-  │
-[Qn]
-  │
+# N
+----+-------+-----
+    |   1n  |
+    |  [▼]  |
+    |   2   |
+----+-------+-----
 
-# Variante vertical espejo (alineación en la columna 2 del símbolo)
-Vertical (espejo, alineación izquierda):
- │
-[Qn]
- │
+# S
+----+-------+-----
+    |   2   |
+    |  [▲]  |
+    |   1n  |
+----+-------+-----
 
-# Variante horizontal
-Horizontal:
-─[Qn]─
+# E
+----+-------+-----
+    |       |
+    | 2[◀]1 |
+    |     n |
+----+-------+-----
+
+# O
+----+-------+-----
+    | n     |
+    | 1[▶]2 |
+    |       |
+----+-------+-----
+
+Meta-datos YAML para el símbolo Diodo genérico
+
+name: "Diodo genérico"
+symbol_type: "polarizado"
+terminals:
+  - number: 1
+    role: "ánodo"
+    polarity: "+"
+  - number: 2
+    role: "cátodo"
+    polarity: "-"
+orientation: "N, S, E, O"
+marker: "n"
+usos:
+  - "Rectificación"
+  - "Protección contra polaridad inversa"
+  - "Demodulación"
+  - "Clamping y clipping"
+notes:
+  - "El símbolo usa corchetes [ ]"
+  - "Terminal 1 indica orientación y polaridad"
+  - "La flecha indica dirección ánodo→cátodo"
