@@ -11,9 +11,6 @@ Esquema general de potencia – Calentamiento por inducción (sin control):
                             │                          │
                            ===                        ///
 
-
-         
-
 Inversor Half-Bridge + Rail-split:
 
         
