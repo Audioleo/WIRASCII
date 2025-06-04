@@ -1,0 +1,29 @@
+WIRASCII - Gráficos de alambrado (v1.0)
+----------------------------------------
+
+Líneas de alambrado:
+
+│ ─ ┐ ┘ └ ┌
+
+Puntos de derivación:
+
+┴ ┬ ┤ ├ 
+
+Cruce de líneas con conexión:
+
+┼
+
+Cruces de líneas sin conexión:
+ ·  ·
+(─  ─)
+ ·  ·
+
+Entradas de señal o alimentación (Términal de circuito):
+       
+>─
+─<  
+
+Salidas de señal o potencia (Términal de circuito):
+
+<─
+─> 
