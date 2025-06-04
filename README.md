@@ -8,8 +8,7 @@ Este proyecto es abierto y colaborativo. Si te interesa el cruce entre electrón
 
 ## Tabla de contenido
 
-- [Visión del proyecto](doc/vision.md)
-- [Objetivos actuales](doc/objetivo.md)
+- [El proyecto WIRASCII](doc/the-projet.md)
 - [Símbolos disponibles](symbols/)
 - [Herramientas y scripts](tools/)
 - [Ejemplos (próximamente)](examples/)
