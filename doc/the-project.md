@@ -45,7 +45,7 @@ Los símbolos deben tener un estilo estandarizado, alineados sin usar el caráct
 
 ### Base de carácteres
 
-Inicialmente, se ha seleccionado y clasificado una serie de caracteres ASCII/Unicode posiblemente útiles para representar líneas de alambrado y componentes como resistores, capacitores, diodos, puentes, transistores, ICs y bloques funcionales (vea el archivo [char-base.txt](/doc/specs/char-base.txt). 
+Inicialmente, se ha seleccionado y clasificado una serie de caracteres ASCII/Unicode posiblemente útiles para representar líneas de alambrado y componentes como resistores, capacitores, diodos, puentes, transistores, ICs y bloques funcionales (vea el archivo [char-base.txt](/assets/graph-db/char-base.txt). 
 
 La base de caracteres WIRASCII, puede seguir extendiéndose a medida que se desarrollen sus siguientes versiones; sin embargo, debe cumplir las siguientes características:
 
@@ -57,7 +57,7 @@ La base de caracteres WIRASCII, puede seguir extendiéndose a medida que se desa
 
 ### Definición gráfica de símbolos
 
-La representación visual de componentes se realiza mediante la combinando caracteres ASCII/Unicode, de manera que su apariencia sea lo más parecida (dentro de lo posible) a los símbolos de componentes eléctricos y electrónicos estándar.
+La representación visual de componentes se realiza mediante la combinando caracteres ASCII/Unicode, para formar un gráfico lo más parecido (dentro de lo posible) a los símbolos de componentes eléctricos y electrónicos estándar.
 
 Al momento de definir la apariencia visual de un símbolo se debe mantener la uniformidad y un estilo coherente. Todos los símbolos deben ser lo más compacto posible en tamaño y proporciones visuales. 
 
