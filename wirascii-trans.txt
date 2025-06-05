@@ -1,0 +1,17 @@
+WIRASCII>
+
+Diagrama eléctrico transformador:
+
+                  N1:N2
+    ┌──────────────┐ ┌──────────────┐
+    │     ip →     │ │ is →         │
+    │+             ▓ ▓              │
+ E (^)           p ▓ ▓ s           [Ω] Rl
+    │-             ▓ ▓              │
+    │              │ │              │
+    └──────────────┘ └──────────────┘
+
+Convenciones:
+
+E = v(t) ≈ ±Vbus/2
+N1:N2 = N1:1
