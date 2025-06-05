@@ -1,0 +1,19 @@
+WIRASCII - Gráficos de alambrado (v1.0)
+----------------------------------------
+
+Líneas de alambrado:
+
+│ ─ ┐ ┘ └ ┌
+
+Puntos de derivación:
+
+┴ ┬ ┤ ├ 
+
+Cruce de líneas con conexión:
+
+┼
+
+Cruces de líneas sin conexión:
+ │
+─(─ 
+ │ 
