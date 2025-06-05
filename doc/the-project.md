@@ -64,20 +64,20 @@ Al momento de definir la apariencia visual de un símbolo se debe mantener la un
 A continuación, se muestran las representaciones gráficas de algunos de símbolos ya definimos en WIRASCII:
 
 ```
-| Componente   | Gráf. | Ref. |
-|--------------|-------|------|
-| Resistor     |  [Ω]  |  Rn  |
-| Inductor     |  [ω]  |  Ln  |
-| Capacitor    |  [=]  |  Cn  |
-| Fuente AC    |  (~)  |  En  |
-| Fuente DC    |  (±)  |  En  |
-| Diodo        |  [▼]  |  Dn  |
-| Zener        |  [v]  |  Zn  |
-| LED          |  (v→) |  LDn |
-| Fusible      |  [~]  |  Fn  |
-| Switch       |  [/]  |  Sn  |
+| Componente  | Gráfico | Ref. |
+|-------------|---------|------|
+| Resistor    |   [Ω]   |  Rn  |
+| Inductor    |   [ω]   |  Ln  |
+| Capacitor   |   [=]   |  Cn  |
+| Fuente AC   |   (~)   |  En  |
+| Fuente DC   |   (±)   |  En  |
+| Diodo       |   [▼]   |  Dn  |
+| Zener       |   [v]   |  Zn  |
+| LED         |   (↓)   |  LDn |
+| Fusible     |   [~]   |  Fn  |
+| Switch      |   [/]   |  Sn  |
 ```
-Para más representaciones gráficas de componentes, consulte el archivo [graphic-symbol.txt](/assets/graph-db/legacy-graphic-symbol.txt).
+Para más representaciones gráficas de componentes, consulte el archivo [graphic-symbol.txt](/assets/graph-db/legacy-graph-symbol.txt).
 
 ### Especificaciones de símbolos, alambrado y conexiones 
 
