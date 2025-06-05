@@ -45,7 +45,7 @@ Los símbolos deben tener un estilo estandarizado, alineados sin usar el caráct
 
 ### Base de carácteres
 
-Inicialmente, se ha seleccionado y clasificado una serie de caracteres ASCII/Unicode posiblemente útiles para representar líneas de alambrado y componentes como resistores, capacitores, diodos, puentes, transistores, ICs y bloques funcionales (vea el archivo [char-base.txt](/assets/graph-db/char-base.txt). 
+Inicialmente, se ha seleccionado y clasificado una serie de caracteres ASCII/Unicode posiblemente útiles para representar líneas de alambrado y componentes como resistores, capacitores, diodos, puentes, transistores, ICs y bloques funcionales (vea el archivo [char-base.txt](/assets/graph-db/legacy-char-base.txt). 
 
 La base de caracteres WIRASCII, puede seguir extendiéndose a medida que se desarrollen sus siguientes versiones; sin embargo, debe cumplir las siguientes características:
 
@@ -77,7 +77,7 @@ A continuación, se muestran las representaciones gráficas de algunos de símbo
 | Fusible      |  [~]  |  Fn  |
 | Switch       |  [/]  |  Sn  |
 ```
-Para más representaciones gráficas de componentes, consulte el archivo [graphic-symbol.txt](/doc/specs/graphic-symbol.txt).
+Para más representaciones gráficas de componentes, consulte el archivo [graphic-symbol.txt](/assets/graph-db/legacy-graphic-symbol.txt).
 
 ### Especificaciones de símbolos, alambrado y conexiones 
 
