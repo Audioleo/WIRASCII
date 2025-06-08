@@ -1,0 +1,36 @@
+---
+componente: LED
+tipo: Diodo emisor de luz (dispositivo polarizado)
+simbolo: "(▲▼◀▶)"
+terminales:
+  - numero: 1
+    rol: Anodo
+  - numero: 2
+    rol: Catodo
+polaridad: true
+orientaciones: [N, S, E, O]
+uso:
+  - Indicador luminoso
+  - Emisor de luz
+compatibilidad: Unicode 1x1 (─ │)
+notas: El símbolo usa paréntesis para simular carga y diferenciarlo del diodo estándar.
+---
+
+LED (ánodo = 1, cátodo = 2)  
+Flecha indica 1 → 2
+
+Orientación Norte (N):
+  1
+ (▼)
+  2
+
+Orientación Sur (S):
+  2
+ (▲)
+  1
+
+Orientación Este (E):
+2(◀)1
+
+Orientación Oeste (O):
+1(▶)2
