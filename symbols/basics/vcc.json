@@ -1,0 +1,16 @@
+{
+  "name": "Vcc",
+  "ref": "",
+  "value": "",
+  "type": "symbol",
+  "orientation": "#N",
+  "ascii": {
+    "#N": [
+      " ▁ Vcc",
+      " p1"
+    ]
+  },
+  "pin_map": {
+    "p1": "VCC"
+  }
+}
