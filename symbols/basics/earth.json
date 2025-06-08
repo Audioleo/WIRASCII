@@ -1,0 +1,16 @@
+{
+  "name": "Earth",
+  "ref": "",
+  "value": "",
+  "type": "symbol",
+  "orientation": "#N",
+  "ascii": {
+    "#N": [
+      " p1",
+      " ╧"
+    ]
+  },
+  "pin_map": {
+    "p1": "Earth"
+  }
+}

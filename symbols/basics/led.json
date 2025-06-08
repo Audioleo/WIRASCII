@@ -1,0 +1,31 @@
+{
+  "name": "LED",
+  "ref": "D?",
+  "value": "Red",
+  "type": "generic",
+  "orientation": "#N",
+  "ascii": {
+    "#N": [
+      " p1",
+      "(▽) Ref",
+      " p2"
+    ],
+    "#E": [
+      "  Ref",
+      "p2(◁)p1"
+    ],
+    "#S": [
+      " p2",
+      "(△) Ref",
+      " p1"
+    ],
+    "#W": [
+      "  Ref",
+      "p1(▷)p2"
+    ]
+  },
+  "pin_map": {
+    "p1": "AN",
+    "p2": "KA"
+  }
+}
