@@ -6,58 +6,94 @@ Terminales de circuito:
 ─<  Entrada (de señal) por la derecha
 ─>  Salida (de señal/potencia) por la derecha
 <─  Salida (de señal/potencia) por la izquierda
+╧   Tierra
+┴   Masa
 _   Entrada de alimentación por arriba
 
 Resistor:
-[Ω]  Rn
-
+ │
+[R]
+ │
+ 
 Inductor:
-[ω]  Ln
-
+ │
+[ω]
+ │
+ 
 Capacitor:
+ │
 [=]
-
-Fuentes:
-(~)  AC
-(±)  DC
-
-Diodos:
-[▼]  Rectificador
-[v]  Zener
-(v→) LED (no oficial)
-
-Fusibles:
-[~]  Fusible genérico
-
+ │
+ 
+Fuente AC:
+ │
+(~) 
+ │
+ 
+Fuente DC:
+ |
+(±)
+ │
+ 
+Fuente Dependiente:
+ │
+⟨e⟩
+ │
+ 
+Diodo Rectificador:
+ │
+[▼]
+ │
+ 
+Diodo Zener:
+ │
+[▽]
+ │
+ 
+Fusible:
+ │
+[~]
+ │
+ 
 Interruptor:
+ │
 [/]
-
+ │
+ 
+LED (no oficial):
+ │
+(▽)→
+ │
+ 
 Bombillo:
+ │
 (X)
-
+ │
+ 
 Motor DC:
+ │
 (M)
-
+ │
+ 
 Interruptor controlado:
+   │
 ──[\]  Representa un BJT, MOSFET, IGBT, etc.
-
+   │
+   
 Transistor BJT:
-    c
-b ├─┘
-──┤◀┐
-    e
+    
+  ├─┘
+──┤◀┐ 
 
 Transistor IGBT:
-    c
-g│├─┘
+    
+ │├─┘
 ─┤│◀┐
-    e
 
 Transistor MOSFET:
-    d
-g│|─┘
+
+ │|─┘
 ─┤|◀┐    
-    s
 
 Puente rectificador:
   ┌─────┐
@@ -65,19 +101,28 @@ Puente rectificador:
 3 ┤~   -├ 2
   └─────┘
 
-Reglas de conexión:
-- Las entradas AC se conectan en las líneas con los símbolos `~`, terminales 3 y 4
-- Las salidas DC en las líneas con `+` y `-`, terminales 1 y 2 respectivamente.
-
 Componente en bloque genérico:
   ┌─────┐
 6 ┤     ├ 1
-5 ┤ REF ├ 2
+5 ┤     ├ 2
 4 ┤     ├ 3
   └─────┘
 
 Reglas de conexión:
 - Este tiene 6 terminales, pero le se pueden añadir más.
 - Puede tener terminales a los lados, arriba y abajo.
+- Las terminales no usadas pueden eliminarse (alizando su terminal).
+
+Choque en modo común:
+
+4 ──■■── 1
+  ((  ))  
+3 ──■■── 2
+iba y abajo.
 - Las terminales no usadas pueden eliminarse (reemplazando su nodo por un borde liso).
-- La referencia (REF) es variable.
+
+Choque en modo común:
+
+4 ──■■── 1
+  ((  ))  Salida
+3 ──■■── 2
