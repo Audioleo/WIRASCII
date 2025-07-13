@@ -87,7 +87,7 @@ Transistor BJT:
 
 Transistor IGBT:
     
- │├─┘
+  ├─┘
 ─┤│◀┐
 
 Transistor MOSFET:
@@ -117,12 +117,4 @@ Choque en modo común:
 
 4 ──■■── 1
   ((  ))  
-3 ──■■── 2
-iba y abajo.
-- Las terminales no usadas pueden eliminarse (reemplazando su nodo por un borde liso).
-
-Choque en modo común:
-
-4 ──■■── 1
-  ((  ))  Salida
 3 ──■■── 2
